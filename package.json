@@ -1,0 +1,16 @@
+{
+  "name": "echo-env",
+  "version": "1.0.0",
+  "pack-destination": "target",
+  "description": "shows the env to help debug npx script issues",
+  "main": "index.js",
+  "bin": {
+    "echo-npx": "./index.js"
+  },
+  "scripts": {
+    "test": "node ./index.js"
+  },
+  "keywords": [],
+  "author": "git-rz",
+  "license": "ISC"
+}
